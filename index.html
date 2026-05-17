@@ -139,6 +139,22 @@
 
     .summary-panel p { color: var(--muted); line-height: 1.7; }
 
+    .resource-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 42px;
+      margin-top: 16px;
+      padding: 10px 14px;
+      border-radius: 6px;
+      color: #fff;
+      background: var(--accent);
+      font-weight: 800;
+      text-decoration: none;
+    }
+
+    .resource-link:hover { background: var(--accent-strong); }
+
     .stats {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -336,6 +352,7 @@
         <aside class="summary-panel">
           <h2>本堂課重點</h2>
           <p>先把開發基本功打穩，再用 AI 輔助寫程式。學生需要理解專案、資料夾、終端機、虛擬環境與版本控制的關係，避免只記步驟卻不知道原因。</p>
+          <a class="resource-link" href="https://github.com/roberthsu2003/__2026_05_09_chihlee_python__/tree/main/link" target="_blank" rel="noopener">開啟致理 Python 課程資料</a>
         </aside>
       </div>
     </section>
